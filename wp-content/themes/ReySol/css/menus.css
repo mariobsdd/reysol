@@ -1,0 +1,172 @@
+/*Menú a la carta*/
+.category{
+	
+}
+.desayunos .category-title{
+	width: 220px;
+}
+.ensaladas .category-title{
+	width: 200px;
+}
+.sandwiches .category-title{
+	width: 230px;
+}
+.varios .category-title{
+	width: 130px;
+}
+.postres .category-title{
+	width: 160px;
+}
+.ensaladas .category-title{
+	width: 200px;
+}
+.bebidas-frias .category-title{
+	width: 290px;
+}
+.bebidas-calientes .category-title{
+	width: 355px;
+}
+.category-title{
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+.category-title h3{
+	color: rgb(83,211,2);
+	font-family: 'Qwigley', cursive;
+	font-size: 80px;
+	z-index: 2;
+}
+.category-title img{
+	position: absolute;
+	right: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 1;
+}
+.description{
+	text-align: center;
+	margin: 0 auto;
+}
+.description .descripcion{
+	color: black;
+	margin-bottom: 15px;
+}
+.description .description{
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+.productos{
+	text-align: center;
+}
+.category:not(.bebidas-calientes):not(.bebidas-frias) .product, .menu:not(.menu-de-boquitas-saladas){
+	box-sizing: border-box;
+	float: left;
+	padding: 15px 30px;
+	width: 50%;
+}
+.category:not(.bebidas-calientes):not(.bebidas-frias) .product:nth-last-child(1):nth-child(odd), .menu:nth-child(5){
+	width: 100%;
+}
+.category:not(.bebidas-calientes):not(.bebidas-frias) .product_title img{
+width: 16px;
+}
+.category:not(.bebidas-calientes):not(.bebidas-frias) .product_title, .menu_title{
+	color: rgb(83,211,2);
+	font-family: 'Qwigley', cursive;
+	font-size: 40px;
+	width: auto;
+}
+.product .description, .product .price{
+	color: black;
+	margin-bottom: 20px;
+	width: 100%;
+}
+.product .translation{
+	margin-bottom: 20px;
+	width: 100%;
+}
+.desayunos+.description{
+	width: 64%;
+}
+.bebidas-calientes>.description{
+	width: 65%;
+}
+.bebidas-frias .product,
+.bebidas-calientes .product{
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+	width: 340px;
+}
+.bebidas-frias .product .price,
+.bebidas-calientes .product .price{
+	right: 0px;
+	position: absolute;
+	top: 0px;
+	width: auto;
+}
+.bebidas-frias .product img,
+.bebidas-calientes .product img{
+	margin-right: 5px;
+}
+.bebidas-frias .product .description,
+.bebidas-calientes .product .description,
+.bebidas-frias .product .product_title,
+.bebidas-calientes .product .product_title{
+	color: black;
+	margin-bottom: 0px;
+	padding-left: 18px;
+	padding-right: 100px;
+	text-align: left;
+}
+.bebidas-frias .product .translation,
+.bebidas-calientes .product .translation{
+	padding-left: 18px;
+}
+.bebidas-frias .productos .description,
+.bebidas-caliente .productos .description{
+	margin-bottom: 5px;
+}
+.bebidas-frias~.productos .description{
+	display: none;
+}
+.bebidas-calientes+.description{
+	width: 70%;
+}
+.bebidas-frias .product .translation{
+	margin-bottom: 10px;
+}
+/*Menú para eventos*/
+.menu-title{
+	width: 150px;
+}
+.menu{
+	min-height: 45%
+}
+.menu_title{
+	text-align: center;
+}
+.menu_title img{
+	width: 20px;
+}
+.menu .price{
+	padding-top: 10px;
+	text-align: center;
+}
+.condiciones{
+	width: 450px;
+}
+.page-eventos .content ul{
+	margin: 0 auto;
+	width: 50%;
+}
+.page-eventos  .wrapper .content .gallery{
+	right: 40px;
+}
+.page-eventos .content-text{
+	display: none;
+}
+.page-eventos .menu-title{
+	margin: 130px 0 130px 175px;
+}

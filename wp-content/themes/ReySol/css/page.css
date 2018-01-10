@@ -1,0 +1,76 @@
+.wrapper, .sub-menu{
+	background-color: rgb(83,211,2);
+	padding: 10px 30px 30px;
+}
+.wrapper h3.title{
+	color: white;	
+	font-family: 'Qwigley', cursive;
+	font-size: 50px;
+	padding-left: 10px;
+}
+.wrapper .content{
+	background-color: white;
+	color: #808080;
+	min-height: 340px;
+	padding: 20px 0px 20px 10px;
+	position: relative;
+}
+.content>p:first-of-type{
+	padding-top: 40px;
+}
+.content>p{
+	padding-left: 20px;
+	padding-right: 20px;
+	float: left;
+	margin-bottom: 10px;
+	width: 60%;
+}
+body:not(.page-menu-a-la-carta) .content .gallery{
+	background-color: rgb(230,230,230);
+	height: 280px;
+	position: absolute;
+	right: 0;
+	top: 40px;
+	width: 40%;	
+}
+.gallery img{
+	height: 100%;
+	padding: 20px 10px;
+	position: absolute;
+	width: 100%;
+}
+.page-panaderia .content h3{
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.page-panaderia .content ul{
+	margin-bottom: 10px;
+}
+.page-contactenos .content h5{
+	font-weight: bold;
+}
+.page-contactenos .content ul, .page-eventos .content ul{
+	list-style-image: url('../images/solecito.png');
+}
+.content ul{
+	margin-left: 100px;
+}
+body:not(.page-contactenos):not(.page-eventos) .content li:before{
+	color: #37CC01;
+	content: "•";
+    margin-right: 10px;
+}
+.page-panaderia .content-text,.page-embutidos-de-soya .content-text,.page-otros .content-text,.page-contactenos .content-text{
+	display: none;
+}
+.page-panaderia h3{
+	padding-top: 30px;
+}
+.page-contactenos h5{
+	padding: 30px 0;
+	margin-left: 20%;
+    text-align: center;
+    width: 200px;
+}

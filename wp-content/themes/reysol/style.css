@@ -1,0 +1,22 @@
+body{
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	margin: 20px auto;
+	position: relative;
+	width: 960px;
+}
+.sub-menu{
+	background-color: rgb(83,211,2);
+	padding: 10px 30px 30px;
+}
+.home-image img{
+	height: 380px;
+	width: 100%;
+	z-index: 2;
+}
+*{
+	font-family: 'Arial';
+}
+.clear {
+    clear: both;
+}

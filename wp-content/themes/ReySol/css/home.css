@@ -1,0 +1,42 @@
+.sub-menu div.page{
+	background-color: rgb(83,211,2);
+	box-sizing: border-box;
+	float:left;
+	height: 175px;
+	padding: 0 20px;
+	position: relative;
+	width: 25%;
+}
+.page-title{
+	bottom: 40px;
+	color: white;
+	font-size: 33px;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+	z-index: 2;
+}
+.page:nth-child(1) .page-title,.page:last-of-type .page-title{
+
+}
+div.page a{
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+}
+div.images{
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+.images img{
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}

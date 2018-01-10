@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'pUntk+Q##S+HVv)OI?ON0/k^+?a%5k;NXQ(pWx[YIjC#M(.1l#0p6%>hZwO>^-o-');
-define('SECURE_AUTH_KEY',  '|BbW]^bb7t=_P_T_?I]V^OJ9R^3.kHAuV6;n>oDc16u3Iv[?h)NkO.nGhA80hyWk');
-define('LOGGED_IN_KEY',    '8RvIbku?T!lyv~HAkYGQ_S!:$%iqbRA/1+Oo&7?!+edVE7aC$8BjL[.A_!HqIt4h');
-define('NONCE_KEY',        '3SWYL_<$iHeDZ]<a]qyCV0?do4Lo^,^kdotb+#nZSra<34~h6:!aft6CXTJaf2<P');
-define('AUTH_SALT',        'X,EJPex-#`C!QcCjp^<w2r250XQ~C,8;bJkK)F}CC8:J**YZgqEtnC.`ad`S8z26');
-define('SECURE_AUTH_SALT', 'D0bewhV>3p%j/]I/$2CLJh~`UKBqz=urm[er4B9w`_J>#7{&`.[a!3@NCNGFNV0s');
-define('LOGGED_IN_SALT',   'tw0iS>?QF%#eDo2=,ugh(z{g~k&g-A-8f.pdSu#3qSg`mX+e5%qSyP13J{xhhFS0');
-define('NONCE_SALT',       'f`>Y;p0G<xml@l%/DskHZkBR`WU$t-/63@TpW #RM&DbW1C0Hy,~m0Csv ^N,~)H');
+define('AUTH_KEY',         ':HW{b3oWdTbj<M}y7,a`7D|a1V:nmnfVocd&aZ7TW8-~ _;~9Owzyx+Cp$yJGTx)');
+define('SECURE_AUTH_KEY',  '1dJx;c=I~LRW:zZopZ[ouve4}kRg3Me;%zxI+FUJH$vP+ z|}M,.yz~]WdUa$q?b');
+define('LOGGED_IN_KEY',    'C{{pFeqRW)_2^b+9/*a9X_rQ=ANrA<|[:*9Ge#VuxvF#S(t.wrV-EFR N]1lP/lV');
+define('NONCE_KEY',        'j@;*q-dXg*:~6GxF1G|btGJ(*AZco0Lti 51_L9-x}sCyrK46,:f%x6LDL?(j9#3');
+define('AUTH_SALT',        '(U,&)k36~O68vrU#/~!4|AgxlL1Lnfd*JMw!%WrUamda[!IF_A?tqo!RF~!*`/&+');
+define('SECURE_AUTH_SALT', '<~o|{^L_Kq|-YZpgKgu[@F9S=U0#3+<-j :Bv@kWm )D&qWZ.NcFtdm#a.0[tk].');
+define('LOGGED_IN_SALT',   '56Lp5LrC45JT22h?g>cS2p$>_:Gg9~V;,rV}A_be49)ZU:8vTXqrnhag2NJnIuj%');
+define('NONCE_SALT',       '3Y+._*asJUi{{hyn-,$2FjjWGYPu/#T(;__qE,>fgb5)d?RWCE1a^TzVkpw]` <;');
 
 /**#@-*/
 
@@ -87,3 +87,6 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+/* Modifies the upload max size*/
+@ini_set( ‘upload_max_size’ , ’25MB’ );
