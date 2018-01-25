@@ -1,11 +1,12 @@
 .sub-menu div.page{
-	background-color: rgb(83,211,2);
-	box-sizing: border-box;
-	float:left;
-	height: 175px;
-	padding: 0 20px;
-	position: relative;
-	width: 25%;
+    background-color: rgb(83,211,2);
+    box-sizing: border-box;
+    display: inline-block;
+    height: 175px;
+    margin: 10px 20px;
+    max-width: 20%;
+    position: relative;
+    width: 200px;
 }
 .page-title{
 	bottom: 40px;
@@ -21,6 +22,7 @@
 }
 div.page a{
 	height: 100%;
+	left: 0px;
 	position: absolute;
 	width: 100%;
 	z-index: 10;

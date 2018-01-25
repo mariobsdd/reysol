@@ -5,6 +5,8 @@ add_action('wp_enqueue_scripts', 'get_the_styles');
 add_action('init','create_carta_post');
 add_action('init','create_menuEventos_post');
 show_admin_bar(false);
+add_theme_support('menus');
+register_nav_menu('header','Menú que aparece en la barra superior');
 function get_the_styles(){
     $url = get_template_directory_uri();
     wp_enqueue_style('reset', $url.'/css/reset.css');

@@ -8,6 +8,7 @@ body{
 .sub-menu{
 	background-color: rgb(83,211,2);
 	padding: 10px 30px 30px;
+	text-align: center;
 }
 .home-image img{
 	height: 380px;
