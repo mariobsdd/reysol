@@ -21,6 +21,10 @@
 
 }
 div.page a{
+	border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 	height: 100%;
 	left: 0px;
 	position: absolute;
